@@ -1,0 +1,26 @@
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+  }
+  .block__elem-button{
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  .button--mod-red{
+    background-color: $red;
+    padding: 20px 50px;
+  }
+  .button--mod-blue{
+    background-color: $blue;
+    padding: 20px 70px;
+  }
+  .button--mod-green{
+    background-color: $green;
+    padding: 10px 30px;
+  }

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+   margin: auto;
+} 
+.hero__img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/hero.jpg');
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.hero__title{
+    color: $white;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.hero__subtitle{
+    color: $white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.hero__btn{
+    padding: 20px 50px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+.btn--enter{
+    background-color: $purple;
+    border: none;
+        &:hover{
+            background-color: darken($color: $purple, $amount: 5);
+        }
+        &:active{
+            background-color: darken($color: $purple, $amount: 8);
+        }
+}
+
+
+.btn--terms{
+    border: 5px solid $purple;
+    background-color: transparent;
+        &:hover{
+            border: 5px solid darken($color: $purple, $amount: 5);
+        }
+        &:active{
+            border: 5px solid darken($color: $purple, $amount: 8);
+        }
+}
